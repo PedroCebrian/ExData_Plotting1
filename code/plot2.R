@@ -1,3 +1,5 @@
-plot2 <- function(data){
+plot2 <- function(){
+    source("read_data.R")
+    if (!exists("data")) data <- read_data()
     
 }
